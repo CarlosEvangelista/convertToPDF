@@ -1,4 +1,4 @@
-package text;
+package com.carlos_ev.convert_to_pdf;
 
 public class Pair<E, O> {
 	private E left;

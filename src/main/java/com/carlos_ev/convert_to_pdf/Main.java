@@ -1,4 +1,4 @@
-package text;
+package com.carlos_ev.convert_to_pdf;
 
 import java.util.PriorityQueue;
 
@@ -24,7 +24,7 @@ public class Main {
 			if(!res) {
 				System.err.println("------------------------------------------------\nError al crear el documento.\n------------------------------------------------");
 			}else {
-				System.out.println("------------------------------------------------\nÉxito al crear el documento.\n------------------------------------------------");
+				System.out.println("------------------------------------------------\nï¿½xito al crear el documento.\n------------------------------------------------");
 			}
 		}else {
 			showHelp();

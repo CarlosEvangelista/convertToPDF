@@ -1,4 +1,4 @@
-package text;
+package com.carlos_ev.convert_to_pdf;
 
 import java.io.File;
 
@@ -29,9 +29,9 @@ public class DocumentCreator {
 			return false;
 		}
 		document.open();
-		System.out.println("Leyendo imágenes...");
+		System.out.println("Leyendo imï¿½genes...");
 		if(allFilesSorted.isEmpty()) {
-			System.err.println("AVISO: No se han encontrado ficheros con la extensión proporcionada");
+			System.err.println("AVISO: No se han encontrado ficheros con la extensiï¿½n proporcionada");
 		}
 		while(!allFilesSorted.isEmpty()) {
 			Pair<String,Image> file = allFilesSorted.poll();
@@ -59,7 +59,7 @@ public class DocumentCreator {
 		}
 		document.open();		
 
-		System.out.println("Leyendo imágenes...");
+		System.out.println("Leyendo imï¿½genes...");
 		int imp = oddsSorted.size();
 		int par = pairsSorted.size();
 		while(!oddsSorted.isEmpty()) {						
@@ -78,8 +78,8 @@ public class DocumentCreator {
 				return false;
 			}
 		}
-		System.out.println("\n"+imp +" páginas impares generadas");
-		System.out.println(par +" páginas pares generadas");
+		System.out.println("\n"+imp +" pï¿½ginas impares generadas");
+		System.out.println(par +" pï¿½ginas pares generadas");
 		document.close();
 		return true;
 	}

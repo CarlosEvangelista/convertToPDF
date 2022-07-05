@@ -1,4 +1,4 @@
-package com.carlosEv.convertToPDF;
+package com.carlos_ev.convert_to_pdf;
 
 import static org.junit.jupiter.api.Assertions.assertTrue;
 import org.junit.jupiter.api.Test;
